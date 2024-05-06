@@ -1,10 +1,24 @@
-import { Text, View } from 'react-native';
-import { styles } from './src/styles';
+import styled from 'styled-components/native';
+
+const PageContainer = styled.View`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+`;
+
+const Title = styled.Text`
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+`;
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>hello world</Text>
-    </View>
+    <PageContainer>
+      <Title>hello world</Title>
+    </PageContainer>
   );
 }
