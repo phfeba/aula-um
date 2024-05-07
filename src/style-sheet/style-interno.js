@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, Platform } from 'react-native';
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'blue',
+    backgroundColor: Platform.OS === 'android' ? 'blue' : 'red',
   },
   title: {
     color: 'yellow',

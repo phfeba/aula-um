@@ -1,8 +1,4 @@
-import {
-  PageContainer,
-  Title,
-  SubTitle,
-} from './src/styled-components/styled-components';
+import { PageContainer, Title, SubTitle } from './styled-components';
 
 export default function App() {
   return (
