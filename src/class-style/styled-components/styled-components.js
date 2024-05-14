@@ -6,7 +6,7 @@ export const PageContainer = styled.View`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: lightblue;
 `;
 
 export const Title = styled.Text`
