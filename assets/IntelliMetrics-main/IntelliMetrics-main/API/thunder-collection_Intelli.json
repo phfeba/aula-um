@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Intelli",
+    "collectionId": "9fc554c0-c78b-4176-bc71-8498db7921c6",
+    "dateExported": "2024-04-22T19:51:45.171Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "456a1628-cd9d-4154-9162-69bb07319a5f",
+            "colId": "9fc554c0-c78b-4176-bc71-8498db7921c6",
+            "containerId": "",
+            "name": "calcPaquimetro",
+            "url": "http://localhost:3000/calcPaquimetro",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-22T16:48:20.343Z",
+            "modified": "2024-04-22T16:48:20.343Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"valorIndicado\": [\n  [1,2,3],\n  [1,2,3],\n  [1,2,3],\n  [1,4,3]\n  ],\n  \n  \"valorNominalMedExterna\": [\n  0,\n  1.30,\n  1.40,\n  20\n  ],\n  \n  \"valorIndicadoProxOrelhas\": [ [1,4,3] ],\n  \"valorIndicadoAfasOrelhas\": [ [1,2,3] ],\n  \n  \"valorNominalPara\": [ 50, 60 ],\n  \n  \"valorIndicadoProxBicos\": [ [1,4,3] ],\n  \"valorIndicadoAfasBicos\": [ [1,2,3] ],\n  \n  \"valorIndicadoMedInterna\": [\n    [1,2,3],\n    [1,4,3],\n    [1,2,3]\n  ],\n  \"valorNominalMedInterna\": [50, 40 , 30],\n  \n  \"valorNominalMedRessalto\": [50, 40, 30],\n  \"valorIndicadoMedRessalto\": [\n   [1,2,3],\n   [1,4,3],\n   [1,2,3]\n  ],\n  \n  \"valorNominalMedProf\": [ 50,40,30],\n  \"valorIndicadoMedProf\": [\n   [1,2,3],\n   [1,2,3],\n   [1,4,3]\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c897d794-05de-4f4e-9020-2cf0fc6684e4",
+            "colId": "9fc554c0-c78b-4176-bc71-8498db7921c6",
+            "containerId": "",
+            "name": "incertezaPaquimetro",
+            "url": "http://localhost:3000/incertezaPaquimetro",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-04-22T16:48:20.345Z",
+            "modified": "2024-04-22T17:55:21.173Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"desvpad\": [\n    \n  ],\n  \"resolucao\": 120,\n  \"faixaNominal\": 500\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "41e7c44d-6338-4c29-a9f0-dc2526f2585e",
+            "colId": "9fc554c0-c78b-4176-bc71-8498db7921c6",
+            "containerId": "",
+            "name": "calcMicrometro]",
+            "url": "http://localhost:3000/calcMicrometro",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-22T16:48:20.344Z",
+            "modified": "2024-04-22T16:48:20.344Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cMovel\": [1,2,3],\n  \"cFixo\": [1,2,3],\n  \"dadosParalelismo\": [\n    1,\n    2,\n    3,\n    1,2,3\n  ],\n  \"dadosControle\": [\n    [1,2,3],\n    [1,2,3],\n    [1,2,3],\n    [1,2,3]\n  ],\n  \"valorPadrao\": [\n    100,\n    102.500,\n    105.100,\n    107.700\n    \n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "ref": "tFQIcKhhqwo9y0P_RrPj7v4rYB433dGMHmo3Jo999649xLL44FOdBxjmhdNOFXb-dXhI1CcpRYG5yK_vtOt3bQ"
+}

@@ -1,5 +1,5 @@
-import CreativeComponent from './src/class-components/native-components';
+import Search from './src/type-weather/pages/search';
 
 export default function App() {
-  return <CreativeComponent />;
+  return <Search />;
 }
